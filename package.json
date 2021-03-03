@@ -14,11 +14,7 @@
     "pricebook"
   ],
   "contributors": [
-    {
-      "name": "Stephen Hendricks",
-      "email": "stephen@redvanworkshop.com",
-      "url": "redvanworkshop.com"
-    }
+    "Stephen Hendricks <stephen@redvanworkshop.com> (redvanworkshop.com)"
   ],
   "repository": {
     "type": "git",
@@ -41,5 +37,10 @@
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.17.0"
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "author": ""
 }
