@@ -1,0 +1,45 @@
+{
+  "name": "@redvanworkshop/sfcc-catalog-pricebook",
+  "version": "1.0.0",
+  "description": "Create Salesforce Commerce Cloud Pricebook XML from Catalog XML",
+  "homepage": "https://github.com/redvanworkshop/sfcc-catalog-pricebook#readme",
+  "main": "bin/index.js",
+  "bin": {
+    "sfcc-catalog-pricebook": "bin/index.js"
+  },
+  "keywords": [
+    "salesforce",
+    "sfcc",
+    "catalog",
+    "pricebook"
+  ],
+  "contributors": [
+    {
+      "name": "Stephen Hendricks",
+      "email": "stephen@redvanworkshop.com",
+      "url": "redvanworkshop.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redvanworkshop/sfcc-catalog-pricebook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/redvanworkshop/sfcc-catalog-pricebook/issues"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js ./"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "lodash": "^4.17.21",
+    "ora": "^4.0.5",
+    "xml2js": "^0.4.23",
+    "yargs": "^15.4.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.17.0"
+  }
+}

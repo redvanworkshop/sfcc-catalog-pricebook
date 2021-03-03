@@ -1,0 +1,82 @@
+{
+  "root": true,
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "one-var": [
+      "error",
+      "never"
+    ],
+    "prefer-const": "error",
+    "no-console": "warn",
+    "semi": "error",
+    "no-unused-vars": "error",
+    "space-before-function-paren": [
+      "error",
+      "always"
+    ],
+    "keyword-spacing": "error",
+    "space-before-blocks": "error",
+    "no-var": "error",
+    "array-bracket-newline": [
+      "error",
+      "consistent"
+    ],
+    "semi-spacing": "error",
+    "no-constant-condition": "off",
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "space-infix-ops": "error",
+    "new-cap": "error",
+    "indent": [
+      "error",
+      4,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "brace-style": "error",
+    "no-multi-spaces": "error",
+    "key-spacing": [
+      "error",
+      {
+        "afterColon": true,
+        "align": "colon"
+      }
+    ],
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1
+      }
+    ],
+    "padding-line-between-statements": [
+      "error",
+      {
+        "blankLine": "always",
+        "prev": "*",
+        "next": "return"
+      },
+      {
+        "blankLine": "always",
+        "prev": "block-like",
+        "next": "*"
+      },
+      {
+        "blankLine": "always",
+        "prev": "*",
+        "next": "block-like"
+      }
+    ]
+  }
+}
