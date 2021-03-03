@@ -1,6 +1,6 @@
 {
   "name": "@redvanworkshop/sfcc-catalog-pricebook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create Salesforce Commerce Cloud Pricebook XML from Catalog XML",
   "homepage": "https://github.com/redvanworkshop/sfcc-catalog-pricebook#readme",
   "main": "bin/index.js",
