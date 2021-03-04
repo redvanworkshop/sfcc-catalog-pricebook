@@ -11,7 +11,7 @@ Installation
 You can install this package via NPM:
 
 ```bash
-npm install -g sfcc-catalog-pricebook
+npm install -g @redvanworkshop/sfcc-catalog-pricebook
 ```
 
 Usage
