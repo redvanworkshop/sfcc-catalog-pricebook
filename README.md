@@ -1,4 +1,4 @@
-![Logo](docs/img/logo.png "Logo")
+![Logo](https://github.com/redvanworkshop/sfcc-catalog-pricebook/blob/master/docs/img/logo.png?raw=true "Logo")
 
 SFCC Catalog Pricebook
 ===
